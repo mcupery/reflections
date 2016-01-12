@@ -4,3 +4,12 @@
 2.  How is the staging area different from the working directory and the repository? What value do you think it offers?
 	The staging area is like a 'temp' directory for the files you want to include in the next commit.  The value is you can pick and choose which files get included in the commit, which helps you keep your commits restricted to those files involved in the next logical change.
 
+NOTES
+++++++
+git diff   				Compares working dir and staging area
+git diff --staged		Compares staging area and last commit
+git diff 123 456		Compares commit 123 with commit 456
+
+3.  How can you use the staging area to make sure you have one commit per logical change?
+	You use the staging area to include only those files involved in the logical change you are committing.  Add the files included in the change, then commit.  Then, commit the next change by adding those files and committing again, etc.
+
