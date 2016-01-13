@@ -19,4 +19,6 @@ git diff 123 456		Compares commit 123 with commit 456
 5.  How do the diagrams help you visualize the branch structure?
 	Diagrams help you see what commits are reachable from other commits and help you understand how branches you create are connected to other branches and the master.
 
-	
+6.  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is that the code from the first branch is merged into the second branch (the checked-out branch), and the HEAD is changed to the second branch.  All of the commits from both branches are now present in the log.  It is represented in the diagram as connecting two branches together to a single new point because each of the individual commits in each branch are still accessible.
+
