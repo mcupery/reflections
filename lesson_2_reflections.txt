@@ -22,3 +22,6 @@ git diff 123 456		Compares commit 123 with commit 456
 6.  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 	The result is that the code from the first branch is merged into the second branch (the checked-out branch), and the HEAD is changed to the second branch.  All of the commits from both branches are now present in the log.  It is represented in the diagram as connecting two branches together to a single new point because each of the individual commits in each branch are still accessible.
 
+7.  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	The automatic merging is nice because it will add the lines that are common to both files and will compare two versions of the same file with a common ancestor to determine what to keep.  However, this is not fool-proof, so you will have to run the code afterward to ensure that it is bug-free.  Merging manually will not necessarily alleviate this problem.  
+	
