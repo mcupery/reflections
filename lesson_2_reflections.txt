@@ -15,4 +15,8 @@ git diff 123 456		Compares commit 123 with commit 456
 
 4.  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	A branch would definitely be useful for those times when you want to try something out that you may or may not want to include in the production version, i.e., an "experimental" change.  That way, you keep the master intact and don't have to worry about "reverting" back to an earlier version if your change doesn't work out.  If it does work out, then you can merge your change back into the master later.
+
+5.  How do the diagrams help you visualize the branch structure?
+	Diagrams help you see what commits are reachable from other commits and help you understand how branches you create are connected to other branches and the master.
+
 	
