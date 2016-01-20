@@ -9,4 +9,6 @@
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
 	If you run git status, it will tell you where you are in relation to the origin as of your last synchronization.  Also, if you run a fetch, you can examine any changes that have been made to the remote before doing a merge, and can do so offline.
 
+5.  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	OH, well, not using Git/GitHub is the method I am accustomed to!  I usually only have to collaborate with one other person.  We email and/or FTP code changes back and forth to each other.  This seems pretty easy until somehow inevitably you get out of sync and then wonder who has the "master copy".  Even though learning Git takes some time, I think it is worthwhile to solve this kind of problem, especially as you add more people to a project.
 	
