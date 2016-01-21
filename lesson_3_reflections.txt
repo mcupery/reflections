@@ -11,4 +11,9 @@
 
 5.  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 	OH, well, not using Git/GitHub is the method I am accustomed to!  I usually only have to collaborate with one other person.  We email and/or FTP code changes back and forth to each other.  This seems pretty easy until somehow inevitably you get out of sync and then wonder who has the "master copy".  Even though learning Git takes some time, I think it is worthwhile to solve this kind of problem, especially as you add more people to a project.
-	
+
+6.  When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+	You would want to make changes in a separate branch when there are other people working on the same project files as you are.  If everyone made changes to the same files in master, it would get pretty ugly pretty quickly.  If you have all been assigned separate files, then it probably matters less.
+	The benefit of not using branches would be not having to switch between different branches and do merges.
+	The benefit of using branches is that you keep all of the changes separated and can examine them separately before updating master.
+
